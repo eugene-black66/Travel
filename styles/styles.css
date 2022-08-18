@@ -1,4 +1,39 @@
-header {
-    background-color: black;
+.headerAndPlanYourTrip {
+    background-image: url(../img/headerAndSectionPic.png);
     color: white;
+    background-repeat: no-repeat;
+    size: 100%;
+}
+
+
+
+header {
+    display: flex;
+    background-color: rgba(242, 120, 92, 0.5);
+}
+
+.headerLogo {
+    display: flex;
+
+    @font-face {
+        src: url('../styles/fonts/Magra/Magra-Regular.ttf');
+        src: url('../styles/fonts/Magra/Magra-Bold.ttf');
+    }
+
+    font-family: "Magra-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 120px;
+}
+
+.headerNav {
+    display: flex;
+    margin-left: 160px;
+}
+
+.headerLoginBtn {
+    display: flex;
+    margin-right: 120px;
+    margin-left: 200px;
 }
