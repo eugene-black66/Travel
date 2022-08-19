@@ -69,14 +69,20 @@ header {
 }
 
 .planYourTrip {
-    margin-top: 30px;
     margin-left: 120px;
     height: 422px;
     width: 900px;
+    margin-top: -40px;
 
 }
 
 .planYourTrip h1 {
     font-weight: 700;
     font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.planYTsuptext {
+    margin-left: 5px;
+    margin-bottom: 25px;
 }
