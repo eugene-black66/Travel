@@ -1,3 +1,17 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.fixedContainer {
+    display: flex;
+    flex-direction: column;
+    margin: -10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .headerAndPlanYourTrip {
     background-image: url(../img/headerAndSectionPic.png);
     color: white;
@@ -67,7 +81,7 @@ header {
     background: #0D606F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
-    margin-left: 160px;
+    margin-left: 200px;
     cursor: pointer;
 
 }
@@ -134,4 +148,83 @@ header {
     cursor: pointer;
     margin-left: 650px;
     margin-top: -10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.threeStepsH2 {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #F2785C;
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.threeSteps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.firstStep {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstStepTitle {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.secondStep {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondStepTitle {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.thirdStep {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdStepTitle {
+    margin-top: 20px;
+    display: inline-block;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
 }
