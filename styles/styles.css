@@ -11,7 +11,7 @@
 
 header {
     display: flex;
-    background-color: rgba(242, 120, 92, 0.5);
+    background-color: rgba(242, 120, 92, 0.7);
     height: 90px;
     /* justify-content: center; */
     align-items: center;
@@ -37,6 +37,7 @@ header {
 .headerLogo div {
     white-space: nowrap;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .headerNav {
@@ -50,6 +51,7 @@ header {
 .headerNav div {
     margin: 0 20px;
     white-space: nowrap;
+    cursor: pointer;
 
 }
 
@@ -66,6 +68,8 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
     margin-left: 160px;
+    cursor: pointer;
+
 }
 
 .planYourTrip {
@@ -84,5 +88,50 @@ header {
 
 .planYTsuptext {
     margin-left: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+.planYTsearch {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    width: 900px;
+    height: 90px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F2785C;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #F2785C;
+    margin-left: 40px;
+    /* text-indent: 40px; */
+
+}
+
+.searchContainer {
+    display: flex;
+    position: relative;
+}
+
+.planYTsearchButton {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 230px;
+    height: 60px;
+    top: 25px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-left: 160px;
+    cursor: pointer;
+    margin-left: 650px;
+    margin-top: -10px;
 }
