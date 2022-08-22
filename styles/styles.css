@@ -230,3 +230,162 @@ header {
     line-height: 24px;
     color: #0D606F;
 }
+
+.popularDestinations {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #F2785C;
+    margin-top: 100px;
+}
+
+.sliderContainer {
+    position: relative;
+    height: 800px;
+    width: 800px;
+}
+
+.sliderContainer .sliderWrapper {
+    height: 800px;
+    width: 1000px;
+    margin: 5rem auto;
+    /* overflow: hidden; */
+}
+
+.sliderContainer .sliderHolder {
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    height: 100%;
+    animation: slide 15s ease infinite;
+}
+
+.sliderContainer #sliderImage-1 {
+    background: url(../img/SPAIN.png);
+    background-repeat: no-repeat;
+}
+
+.sliderContainer #sliderImage-2 {
+    background: url(../img/JAPAN.png);
+    background-repeat: no-repeat;
+}
+
+.sliderContainer #sliderImage-3 {
+    background: url(../img/USA.png);
+    background-repeat: no-repeat;
+}
+
+.sliderContainer .sliderImage-1-Title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-top: 730px;
+    margin-left: 30px;
+}
+
+.sliderContainer .sliderImage-2-Title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 730px;
+    margin-left: 30px;
+}
+
+.sliderContainer .sliderImage-3-Title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 730px;
+    margin-left: 30px;
+}
+
+
+.sliderContainer .sliderButtonHolder {
+    position: absolute;
+    bottom: -15%;
+    left: 47%;
+}
+
+.sliderContainer .sliderButtonHolder .sliderDots {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 3rem;
+    background: #F2785C;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%)
+    }
+
+    10% {
+        transform: translateX(-100%)
+    }
+
+    20% {
+        transform: translateX(-100%)
+    }
+
+    30% {
+        transform: translateX(-100%)
+    }
+
+    40% {
+        transform: translateX(-200%)
+    }
+
+    50% {
+        transform: translateX(-200%)
+    }
+
+    60% {
+        transform: translateX(-200%)
+    }
+
+    70% {
+        transform: translateX(0%)
+    }
+
+    80% {
+        transform: translateX(0%)
+    }
+
+    90% {
+        transform: translateX(0%)
+    }
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+
+#findMoreButton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 230px;
+    height: 60px;
+    top: 25px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 140px;
+    color: white;
+}
