@@ -1,6 +1,6 @@
-/* body {
-    background-color: #E5E5E5;
-} */
+body {
+    overflow-x: hidden;
+}
 
 .fixedContainer {
     display: flex;
@@ -8,6 +8,7 @@
     margin: -10px 0;
     align-items: center;
     justify-content: center;
+    /* background-color: white; */
 }
 
 
@@ -242,15 +243,18 @@ header {
 
 .sliderContainer {
     position: relative;
-    height: 800px;
+    height: 1000px;
     width: 800px;
+    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .sliderContainer .sliderWrapper {
     height: 800px;
-    width: 1000px;
+    width: 800px;
     margin: 5rem auto;
-    /* overflow: hidden; */
+    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .sliderContainer .sliderHolder {
@@ -263,16 +267,22 @@ header {
 .sliderContainer #sliderImage-1 {
     background: url(../img/SPAIN.png);
     background-repeat: no-repeat;
+    height: 800px;
+    width: 800px;
 }
 
 .sliderContainer #sliderImage-2 {
     background: url(../img/JAPAN.png);
     background-repeat: no-repeat;
+    height: 800px;
+    width: 800px;
 }
 
 .sliderContainer #sliderImage-3 {
     background: url(../img/USA.png);
     background-repeat: no-repeat;
+    height: 800px;
+    width: 800px;
 }
 
 .sliderContainer .sliderImage-1-Title {
@@ -309,8 +319,8 @@ header {
 
 .sliderContainer .sliderButtonHolder {
     position: absolute;
-    bottom: -15%;
     left: 47%;
+    margin-top: 25px;
 }
 
 .sliderContainer .sliderButtonHolder .sliderDots {
@@ -386,8 +396,8 @@ header {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    margin-top: 140px;
     color: white;
+    margin-top: -40px;
 }
 
 #travelStoriesH2 {
@@ -401,6 +411,7 @@ header {
 
 .travelStoriesBackground {
     background-image: url(../img/TravelStoriesBackground.png);
+    background-repeat: no-repeat;
     height: 1331px;
     width: 1440px;
     position: relative;
@@ -411,17 +422,115 @@ header {
     position: absolute;
     height: 1270px;
     width: 1440px;
+    display: flex;
+    justify-content: center;
 
+}
+
+.storiesContainer {
+    height: 1200px;
+    width: 1322px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.story {
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    margin: 15px 0;
+}
+
+.story-picture img {
+    width: 400px;
+    height: 250px;
+}
+
+.story-text {
+    margin-left: 40px;
+}
+
+.story-text-header {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #0D606F;
+    margin-bottom: 25px;
+}
+
+.story-text-paragraph {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D606F;
+}
+
+#readMore {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #0D606F;
+}
+
+#seeMoreButton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 230px;
+    height: 60px;
+    top: 25px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 600px;
 }
 
 footer {
     display: flex;
     width: 1440px;
     height: 60px;
-
+    /* border: 1px solid black; */
+    margin-top: 1275px;
+    margin-left: 250px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
 }
 
 footer img {
     height: 33px;
     width: 33px;
+    margin-left: 20px;
+}
+
+.footerIcons {
+    margin-left: 330px;
+}
+
+#allRightsReserved {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
 }
