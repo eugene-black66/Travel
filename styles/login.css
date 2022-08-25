@@ -1,0 +1,213 @@
+#loginContainer {
+    width: 650px;
+    height: 675px;
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    /*temp*/
+    margin-top: 500px;
+}
+
+#loginContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 20px 25px;
+
+}
+
+#loginHeader {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0D606F;
+    margin: 0 auto;
+}
+
+#loginFacebookButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    width: 560px;
+    height: 30px;
+    background: #1877F2;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#loginFacebookButtonText {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#loginGoogleButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    width: 560px;
+    height: 30px;
+    left: 45px;
+    top: 169px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#loginGoogleButtonText {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D606F;
+}
+
+#loginGoogleButtonIcon {
+    margin-left: -20px;
+}
+
+#loginOrLine {
+    display: flex;
+    flex-direction: row;
+    margin: 42px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#loginOrLineText {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(13, 96, 111, 0.5);
+    padding: 0 5px;
+}
+
+.loginOrLineLine {
+    width: 275px;
+    height: 0px;
+    border: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+#loginEmailTitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D606F;
+    margin-bottom: 5px;
+}
+
+#loginEmailInput {
+    width: 575px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+
+}
+
+#loginPasswordTitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D606F;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#loginPasswordInput {
+    width: 575px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+#loginSignInButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 585px;
+    height: 54px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#loginForgotPassword {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration-line: underline;
+    color: #0D606F;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+    margin: 0 auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#loginUnderline {
+    width: 575px;
+    height: 0px;
+    left: 45px;
+    top: 598px;
+    border: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+#loginFooter {
+    display: flex;
+    margin: 20px auto;
+}
+
+#loginFooterDont {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(13, 96, 111, 0.5);
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+#loginFooterRegister {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration-line: underline;
+    color: #0D606F;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+    margin-left: 5px;
+    cursor: pointer;
+}
