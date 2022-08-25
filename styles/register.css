@@ -1,0 +1,129 @@
+#registerPopup {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -830px;
+}
+
+#registerContainer {
+    width: 650px;
+    height: 380px;
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    /*temp*/
+    margin-top: 650px;
+}
+
+#registerContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 20px 25px;
+}
+
+#registerHeader {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0D606F;
+    margin: 0 auto;
+}
+
+#registerEmailTitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D606F;
+    margin-bottom: 5px;
+}
+
+#registerEmailInput {
+    width: 575px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+#registerPasswordTitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D606F;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#registerPasswordInput {
+    width: 575px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+#registerSignUpButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 585px;
+    height: 54px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#registerUnderline {
+    width: 575px;
+    height: 0px;
+    left: 45px;
+    top: 598px;
+    border: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+#registerFooter {
+    display: flex;
+    margin: 20px auto;
+}
+
+#registerFooterAlreadyHave {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(13, 96, 111, 0.5);
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+#registerFooterLogin {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration-line: underline;
+    color: #0D606F;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+    margin-left: 5px;
+    cursor: pointer;
+}
